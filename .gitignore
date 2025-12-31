@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables
+*.env
+.env.*
+*.env.local
+*.secret
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+
+# Django collected static files
+/static/
+/media/
+
+# Migrations (optional)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.py~
+# **/migrations/
+
+# Byte-compiled
+*.pyc
+__pycache__/
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.orig
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# Django Debug Toolbar
+debug_toolbar/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# --------------------------------------------------
+# Block user-uploaded images from being tracked
+# --------------------------------------------------
+
+
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.webp
+*.heic
+*.heif
+
+# If user uploads are stored in a folder (recommended)
+# Uncomment these if you use a dedicated upload directory:
+# user_uploads/
+# uploads/
+# user_images/
+# Ignore user-uploaded profile pictures
+profile_pics/
+media/profile_pics/
+
+# First, un-ignore image files in the docs directory for the README
+!docs/images/*.png
+!docs/images/*.jpg
