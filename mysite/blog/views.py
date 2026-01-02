@@ -8,7 +8,7 @@ def post_list(request):
     return render(request, 'blog/post/list.html', {'posts':posts})
 
 def post_detail(request, year, month, day, post):
-    post = get_object_or_404(Post, pk=id, status=Post.Status.PUBLISHED,
+    post = get_object_or_404(Post,       status=Post.Status.PUBLISHED,
                              slug=post,
                              publish__year=year,
                              publish__month=month,
