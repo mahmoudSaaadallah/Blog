@@ -97,3 +97,5 @@ media/profile_pics/
 # First, un-ignore image files in the docs directory for the README
 !docs/images/*.png
 !docs/images/*.jpg
+
+.env
